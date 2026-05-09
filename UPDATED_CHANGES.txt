@@ -1,0 +1,36 @@
+FINAL UPDATED FEATURES
+
+1. Login UI
+- Uploaded campus image used as login background.
+- Uploaded Kaveri University logo used in login card.
+- Footer: Powered by Brovia Software Solutions • Kaveri University.
+
+2. WhatsApp Approval Buttons
+- Student PENDING_MH requests show WhatsApp Mentor and WhatsApp HOD buttons.
+- Student PENDING_WARDEN requests show WhatsApp Warden button.
+- Professional auto-filled WhatsApp message added.
+
+3. Student Excel Format
+- Added student phone, parent WhatsApp, mentor name/email/WhatsApp, HOD name/email/WhatsApp.
+- Excel validation checks Mentor Email, HOD Email, Mentor WhatsApp Number, HOD WhatsApp Number.
+
+4. Student Management
+- Admin, HOD, Mentor and Warden get Student Management menu.
+- Add student, edit student and deactivate student added.
+- Admin only can permanently delete student.
+- HOD sees/manages department students only.
+- Mentor sees/manages assigned mentees only.
+- Warden sees/manages hostel students only.
+
+5. Staff Management
+- Admin can add staff, edit staff details, deactivate staff and delete staff.
+- Staff fields include name, email, role, department, hostel, phone/WhatsApp and status.
+
+6. Multi-device / Same Network
+- Backend listens on 0.0.0.0.
+- Frontend Vite runs with --host 0.0.0.0.
+- Mobile, laptops and other systems on same Wi-Fi can open using the computer LAN IP.
+
+Example:
+Backend: http://YOUR-LAN-IP:3000
+Frontend: http://YOUR-LAN-IP:5173

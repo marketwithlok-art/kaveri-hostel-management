@@ -1,0 +1,22 @@
+HOW TO OPEN ON MOBILE / OTHER LAPTOPS IN SAME WIFI
+
+1. Connect all devices to the same Wi-Fi.
+2. On the main laptop, open CMD and type:
+   ipconfig
+3. Find IPv4 Address. Example:
+   192.168.1.5
+4. Start backend:
+   cd backend
+   npm install
+   npm start
+5. Start frontend:
+   cd frontend
+   npm install
+   npm run dev
+6. On mobile or another laptop, open:
+   http://192.168.1.5:5173
+
+Important:
+- Replace 192.168.1.5 with your actual IPv4 address.
+- Allow Node.js in Windows Firewall if asked.
+- Backend uses port 3000 and frontend uses port 5173.
